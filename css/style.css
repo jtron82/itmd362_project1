@@ -291,14 +291,16 @@ fieldset {
   margin-top: 10px;
 }
 
+/* media query */
+
 @media screen and (min-width: 480px) {
   html {
     font-size: 1.2em;
     background-color: lightgray;
   }
   
-  h1 {
-    font-size: 1.5em;
+  #title {
+    font-size: 5.25em;
     font-style: italic;
     font-weight: bold;
     margin-top: 20px;
@@ -308,6 +310,32 @@ fieldset {
   body {
     padding-left: 10%;
     padding-right: 10%;
+  }
+  
+  label, input {
+    display: inline;
+    width: auto;
+    background-color: lightgray;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  html {
+    font-size: 1.5em;
+    background-color: lightgray;
+  }
+  
+  #title {
+    font-size: 5.8em;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  body {
+    padding-left: 20%;
+    padding-right: 20%;
   }
   
   label, input {
