@@ -240,6 +240,7 @@ html {
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
+  text-align: center;
 }
 
 body {
@@ -250,7 +251,7 @@ h1 {
   font-weight: bold;
   font-style: italic;
   margin-bottom: 10px;
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
 p {
@@ -264,6 +265,10 @@ ol {
 
 label {
   display: block;
+}
+
+fieldset {
+  margin-top: 20px;
 }
 
 #submit {
