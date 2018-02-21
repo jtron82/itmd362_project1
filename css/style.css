@@ -270,6 +270,18 @@ label {
   margin-top: 20px;
 }
 
+#verification {
+  margin-top: 20px;
+}
+
+#email, #lname {
+  margin-top: 20px;
+}
+
+#fname {
+  margin-top: 10px;
+}
+
 @media screen and (min-width: 480px) {
   html {
     font-size: 1.2em;
