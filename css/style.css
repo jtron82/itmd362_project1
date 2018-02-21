@@ -250,7 +250,7 @@ body {
 #title {
   font-weight: bold;
   font-style: italic;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
   font-size: 5.25em;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -334,8 +334,8 @@ fieldset {
   }
   
   body {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
   
   label, input {
