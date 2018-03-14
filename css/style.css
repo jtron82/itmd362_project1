@@ -276,15 +276,17 @@ fieldset {
   margin-bottom: 5px;
 }
 #submit {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 #verification {
   margin-top: 10px;
+  margin-right: 10px;
 }
 
 #email {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #lname {
