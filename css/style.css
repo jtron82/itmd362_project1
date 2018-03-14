@@ -280,15 +280,21 @@ fieldset {
 }
 
 #verification {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-#email, #lname {
-  margin-top: 20px;
+#email {
+  margin-top: 10px;
+}
+
+#lname {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #fname {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /* media query */
