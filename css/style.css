@@ -293,54 +293,25 @@ fieldset {
 
 /* media query */
 
-@media screen and (min-width: 480px) {
-  html {
-    font-size: 1.2em;
-    background-color: lightgray;
-  }
-  
-  #title {
-    font-size: 3.25em;
-    font-style: italic;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 45px;
-  }
-  
-  body {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  
-  label, input {
-    display: inline;
-    width: auto;
-    background-color: lightgray;
-  }
+@media screen and (min-width: 320px) {
+  form {
+    width: 100%;
+  }  
 }
 
-@media screen and (min-width: 960px) {
-  html {
-    font-size: 1.5em;
-    background-color: lightgray;
-  }
-  
-  #title {
-    font-size: 3.8em;
-    font-style: italic;
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 45px;
-  }
-  
-  body {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-  
-  label, input {
-    display: inline;
-    width: auto;
-    background-color: lightgray;
-  }
+@media screen and (min-width: 375px) {
+  form {
+    width: 100%;
+  }  
+}
+
+@media screen and (min-width: 425px) {
+  form {
+    width: 100%;
+  }  
+}
+
+@media screen and (min-width: 768px) {
+  form {
+    width: 100%;
 }
