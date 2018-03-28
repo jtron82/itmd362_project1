@@ -255,6 +255,13 @@ body {
   font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
 }
 
+#cat {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 p {
   font-family: 'Noto Sans', Helvetica, Arial, sans-serif;
   margin-bottom: 20px;
